@@ -74,7 +74,7 @@ const Hero = () => {
           <div className="flex-shrink-0">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-maroon to-slate rounded-full blur-2xl opacity-20 animate-pulse"></div>
-              <div className="relative w-104 h-40 md:w-100 md:h-80 rounded-full overflow-hidden border-8 border-white dark:border-navy-light shadow-2xl">
+              <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-8 border-white dark:border-navy-light shadow-2xl">
                 <div className="w-full h-full bg-gradient-to-br from-maroon/20 to-slate/20 flex items-center justify-center">
                   {/* Show profile image from public folder if available; fallback to initials */}
                   {/** Place your photo at `public/profile.jpg` **/}
