@@ -37,9 +37,9 @@ const Experience = () => {
               key={index}
               className="bg-white dark:bg-navy-light rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 border border-slate/20 dark:border-slate/10"
             >
-              <div className="flex gap-12 items-stretch">
+              <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-stretch">
                 {/* Description Section - Left Half */}
-                <div className="w-1/2 flex flex-col justify-center">
+                <div className="w-full lg:w-1/2 flex flex-col justify-center">
                   <h3 className="text-3xl font-bold text-navy dark:text-cream mb-4">
                     {exp.title}
                   </h3>
@@ -97,7 +97,7 @@ const Experience = () => {
                 </div>
 
                 {/* Image Section - Right Half */}
-                <div className="w-1/2">
+                <div className="w-full lg:w-1/2">
                   <div className="w-full h-full rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all">
                     {exp.image ? (
                       <img
