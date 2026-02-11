@@ -1,18 +1,21 @@
-import { ThemeProvider } from './context/ThemeContext';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
-import BackToTop from '../BackToTop';
+import { ThemeProvider } from "./context/ThemeContext.tsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "../Navbar.tsx";
+import Footer from "../Footer.tsx";
+import BackToTop from "../BackToTop.tsx";
 
 // Pages
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Projects from '../pages/Projects';
-import Experience from '../pages/Experience';
-import Achievements from '../pages/Achievements';
-import Education from '../pages/Education';
-import Resume from '../pages/Resume';
-import Contact from '../pages/Contact';
+import Home from "../pages/Home.tsx";
+import About from "../pages/About.tsx";
+import Projects from "../pages/Projects.tsx";
+import Experience from "../pages/Experience.tsx";
+import Extracurricular from "../pages/Extracurricular.tsx";
+import Achievements from "../pages/Achievements.tsx";
+import Education from "../pages/Education.tsx";
+import Resume from "../pages/Resume.tsx";
+import Contact from "../pages/Contact.tsx";
+
+
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/extracurricular" element={<Extracurricular />} />
             <Route path="/achievements" element={<Achievements />} />
             <Route path="/education" element={<Education />} />
             <Route path="/resume" element={<Resume />} />

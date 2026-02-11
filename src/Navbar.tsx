@@ -20,6 +20,7 @@ const Navbar = () => {
     { label: 'About', path: '/about' },
     { label: 'Projects', path: '/projects' },
     { label: 'Experience', path: '/experience' },
+    { label: 'Extracurricular', path: '/extracurricular' },
     { label: 'Achievements', path: '/achievements' },
     { label: 'Education', path: '/education' },
     { label: 'Resume', path: '/resume' },

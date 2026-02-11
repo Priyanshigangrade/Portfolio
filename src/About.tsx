@@ -46,7 +46,7 @@ const About = () => {
               <div className="space-y-4 text-navy/80 dark:text-cream/80 text-lg leading-relaxed">
                 <p>
                   I am a B.Tech Computer Science Engineering student at VIT Bhopal
-                  with a strong academic record (CGPA: 9.05), expected to graduate
+                  with a strong academic record (CGPA: 9.07), expected to graduate
                   in May 2026.
                 </p>
                 <p>

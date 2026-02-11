@@ -30,19 +30,14 @@ const Hero = () => {
 
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <a
-                href="#resume"
+                href="/resume.pdf"
+                download
                 className="inline-flex items-center gap-2 px-6 py-3 bg-maroon hover:bg-maroon/90 text-white rounded-lg font-medium transition-all hover:scale-105 shadow-lg"
               >
                 <Download className="w-5 h-5" />
                 Download Resume
               </a>
-              <a
-                href="#contact"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-navy dark:bg-slate hover:bg-navy/90 dark:hover:bg-slate/90 text-white rounded-lg font-medium transition-all hover:scale-105 shadow-lg"
-              >
-                <Mail className="w-5 h-5" />
-                Contact Me
-              </a>
+              
             </div>
 
             <div className="flex gap-4 justify-center md:justify-start pt-4">

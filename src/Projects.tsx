@@ -16,6 +16,7 @@ const Projects = () => {
       ],
       github: 'https://github.com/Priyanshigangrade',
       demo: null,
+      image: '/returnshield.png',
     },
     {
       title: 'Nexus Cloud',
@@ -30,6 +31,7 @@ const Projects = () => {
       ],
       github: 'https://github.com/Priyanshigangrade',
       demo: null,
+      image: '/nexus-cloud.png',
     },
     {
       title: 'Smart Irrigation System',
@@ -45,6 +47,7 @@ const Projects = () => {
       ],
       github: 'https://github.com/Priyanshigangrade',
       demo: null,
+      image: '/smart-irrigation.png',
     },
   ];
 
@@ -129,16 +132,24 @@ const Projects = () => {
                 {/* Image Section - Right Half */}
                 <div className="w-1/2">
                   <div className="w-full h-full rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all">
-                    <div className="w-full h-full bg-gradient-to-br from-maroon/20 to-slate/20 dark:from-maroon/30 dark:to-slate/30 flex items-center justify-center min-h-96">
-                      <div className="text-center">
-                        <div className="text-6xl font-bold text-maroon/30 dark:text-slate/30 mb-2">
-                          {index + 1}
+                    {project.image ? (
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-full object-cover object-center min-h-96"
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-maroon/20 to-slate/20 dark:from-maroon/30 dark:to-slate/30 flex items-center justify-center min-h-96">
+                        <div className="text-center">
+                          <div className="text-6xl font-bold text-maroon/30 dark:text-slate/30 mb-2">
+                            {index + 1}
+                          </div>
+                          <p className="text-navy/40 dark:text-cream/40 text-sm">
+                            Project Visual
+                          </p>
                         </div>
-                        <p className="text-navy/40 dark:text-cream/40 text-sm">
-                          Project Visual
-                        </p>
                       </div>
-                    </div>
+                    )}
                   </div>
                 </div>
               </div>

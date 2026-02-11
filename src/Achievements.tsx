@@ -19,7 +19,7 @@ const Achievements = () => {
     {
       icon: Award,
       title: 'Academic Excellence',
-      subtitle: 'CGPA 9.05/10',
+      subtitle: 'CGPA 9.07/10',
       description:
         'Maintained outstanding academic performance throughout B.Tech program',
     },

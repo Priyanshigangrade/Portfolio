@@ -7,7 +7,7 @@ const Education = () => {
       school: 'Vellore Institute of Technology (VIT), Bhopal',
       specialization: 'Cloud Computing and Automation',
       year: 'Expected May 2026',
-      score: 'CGPA: 9.05/10',
+      score: 'CGPA: 9.07/10',
       courses: [
         'Cloud Computing',
         'Automation',
